@@ -50,7 +50,7 @@ Os dados serão agregados por período anual para verificação de amplitude e c
 
 ### Identificar e remover anomalias <a name="anom"></a>
 
-Serão identificadas e removidas anomalias encontradas na série temporal, que podem ter sido oriundas de erro de digitação, falha humana ou eventos extremamente atípicos. Essa etapa pode ser considerada parte da modelagem de dados, porém será necessário integrá-la a análise exploratória para complementar os dados faltantes.
+Serão identificadas e removidas anomalias encontradas na série temporal, que podem ter sido oriundas de falha operacional ou eventos extremamente atípicos. Essa etapa pode ser considerada parte da modelagem de dados, porém será necessário integrá-la a análise exploratória para complementar os dados faltantes.
 
 ### Imputar dados faltantes <a name="impute"></a>
 
