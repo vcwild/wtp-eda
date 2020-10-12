@@ -2,7 +2,7 @@
 
 <h2 style="text-align: left">
 
-  [«](https://github.com/vcwild/wtp-datasets) | [Apresentação](#ovr) | [Procedimento](#eda) | [Dicionário de Dados](./dicionario_dados.md) | [»]()
+  [« Anterior](https://github.com/vcwild/wtp-clean) | [Apresentação](#ovr) | [Procedimento](#eda) | [Dicionário de Dados](./dicionario_dados.md) | [Próxima »](https://github.com/vcwild/wtp-model)
 
 </h2>
 
@@ -12,8 +12,6 @@
 
 Análise exploratória de dados é o conjunto de métodos utilizados para identificar as características e comportamentos principais dos dados estudados, utilizando principalmente de métodos estatísticos de agregação de dados, visualização de dados e testes de validação de hipótese. 
 O principal objetivo da análise exploratória é encontrar tendências, relações, padrões de comportamento, correlações, comportamentos anômalos e selecionar as melhores variáveis.
-
-O projeto tem objetivo de realizar análise exploratória nos dados tratados nas etapas anteriores.
 
 ## Etapas do Projeto
 
@@ -77,13 +75,11 @@ As etapas do projeto foram realizadas passo a passo em cada uma das entidades.
 - [PD](./EDA/EDA_pd.ipynb)
 - [REATOR](./EDA/EDA_reator.ipynb)
 
-# Outros
 ## Etapas Anteriores
 
-- [Coleta de Dados](https://github.com/vcwild/wtp-datasets)
-- [Limpeza de Dados](https://github.com/vcwild/wtp-datasets)
-- [Tratamento de Dados](https://github.com/vcwild/wtp-datasets)
+- [Extração de Dados](https://github.com/vcwild/wtp-extract)
+- [Tratamento de Dados](https://github.com/vcwild/wtp-clean)
 
 ## Próxima Etapa
 
-- [Modelagem de Dados]()
+- [Modelagem de Séries Temporais](https://github.com/vcwild/wtp-model)
