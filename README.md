@@ -52,11 +52,11 @@ Serão identificadas e removidas anomalias encontradas na série temporal, que p
 
 ### Imputar dados faltantes <a name="impute"></a>
 
-Considerando que a frequência da série será dividida mensalmente, os dados imputados serão a média entre os dois valores mais próximos do ponto (kNN=2)
+Considerando que a frequência da série será dividida mensalmente, os dados imputados serão a média ponderada entre os valores mais próximos do ponto, utilizando método euclidiano, com kNN=11.
 
 ### Identificar o comportamento da série temporal <a name="stat"></a>
 
-Será identificado se a série possui comportamento estacionário ou não-estacionário. Séries não-estacionárias precisarão ser convertidas em estacionárias na fase de modelagem.
+Será identificado se a série possui comportamento estacionário ou não. Séries não-estacionárias deverão ser convertidas em estacionárias na fase de modelagem.
 
 # Procedimento <a name="eda"></a>
 
