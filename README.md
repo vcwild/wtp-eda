@@ -6,6 +6,15 @@
 
 </h2>
 
+## Etapas Anteriores
+
+- [Extração de Dados](https://github.com/vcwild/wtp-extract)
+- [Tratamento de Dados](https://github.com/vcwild/wtp-clean)
+
+## Próxima Etapa
+
+- [Modelagem de Séries Temporais](https://github.com/vcwild/wtp-model)
+
 # Apresentação <a name="ovr"></a>
 
 ## Introdução
@@ -75,11 +84,4 @@ As etapas do projeto foram realizadas passo a passo em cada uma das entidades.
 - [PD](./EDA/EDA_pd.ipynb)
 - [REATOR](./EDA/EDA_reator.ipynb)
 
-## Etapas Anteriores
-
-- [Extração de Dados](https://github.com/vcwild/wtp-extract)
-- [Tratamento de Dados](https://github.com/vcwild/wtp-clean)
-
-## Próxima Etapa
-
-- [Modelagem de Séries Temporais](https://github.com/vcwild/wtp-model)
+[Próxima Etapa »](https://github.com/vcwild/wtp-model)
