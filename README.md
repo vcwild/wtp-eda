@@ -1,5 +1,3 @@
-# Análise Exploratória de Dados
-
 <h2 style="text-align: left">
 
   [« Anterior](https://github.com/vcwild/wtp-clean) | [Apresentação](#ovr) | [Procedimento](#eda) | [Dicionário de Dados](./dicionario_dados.md) | [Próxima »](https://github.com/vcwild/wtp-model)
