@@ -47,7 +47,7 @@ A frequência das séries históricas devem ser identificadas e transformadas pa
 ### Selecionar as variáveis com informações relevantes <a name="select"></a>
 
 Deverá ser estipulado um valor mínimo de 60% de dados válidos para filtrar as séries temporais com viabilidade de modelagem. A margem de 60% será utilizada porque o conjunto de observações por variável é pequeno (< 100) e ao utilizar margens menores de valores válidos as séries receberão muitos dados imputados entre os intervalos com registro. 
-Uma das características que define séries com percentual de nulos abaixo de 60% é a existência de um ou mais anos com registro completamente nulo. Valores abaixo serão descartados durante essa etapa, mas poderão ser utilizados futuramente mediante outros critérios.
+Para este projeto, uma das características que define séries com percentual de válidos abaixo de 60% é a existência de um ou mais anos com registro completamente nulo. Valores abaixo serão descartados durante essa etapa, mas poderão ser utilizados futuramente mediante outros critérios.
 
 ### Agregar os dados por período anual <a name="agg"></a>
 
